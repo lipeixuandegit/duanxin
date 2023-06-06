@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.sgcc.wsgw.cn",
+    "sha256_cert_fingerprints":
+    ["B9:53:7E:85:7A:23:41:EB:74:7C:0D:E0:08:D4:E8:34:D8:97:F2:07:64:D9:C3:F5:50:0F:FD:94:A5:1E:0D:B4"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://csc-static-simu.sgcc.com.cn:28888"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.sgcc.wsgw.cn",
+    "sha256_cert_fingerprints":
+    ["B9:53:7E:85:7A:23:41:EB:74:7C:0D:E0:08:D4:E8:34:D8:97:F2:07:64:D9:C3:F5:50:0F:FD:94:A5:1E:0D:B4"]
+  }
+}]
